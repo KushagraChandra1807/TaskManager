@@ -11,7 +11,7 @@ const app = express();
 
 // app.use(cors());
 app.use(cors({
-  origin: "https://task-manager-ten-eta-53.vercel.app",
+  origin: "https://taskmanager-production-e707.up.railway.app/",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
